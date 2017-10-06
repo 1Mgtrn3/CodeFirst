@@ -11,7 +11,7 @@ namespace CFExercise.Migrations
                 "dbo.Genres",
                 c => new
                     {
-                        Id = c.Byte(nullable: false),
+                        Id = c.Byte(nullable: false, identity: true),
                         Name = c.String(),
                     })
                 .PrimaryKey(t => t.Id);

@@ -53,6 +53,10 @@
     <Compile Include="Migrations\201710061409234_InitialModel.Designer.cs">
       <DependentUpon>201710061409234_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710061416123_PopulateDataBase.cs" />
+    <Compile Include="Migrations\201710061416123_PopulateDataBase.Designer.cs">
+      <DependentUpon>201710061416123_PopulateDataBase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,6 +68,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201710061409234_InitialModel.resx">
       <DependentUpon>201710061409234_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710061416123_PopulateDataBase.resx">
+      <DependentUpon>201710061416123_PopulateDataBase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
